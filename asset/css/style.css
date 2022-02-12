@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 /* generali */
@@ -16,6 +17,11 @@
 a {
     text-decoration: none;
     color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
 }
 
 /* bottoni */
@@ -34,9 +40,13 @@ a {
 /* navbar */
 
 header {
-    height: 80px;
-    line-height: 80px;
-    /* position: fixed; */
+    height: 60px;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
 }
 
 .navbar-left {
@@ -47,16 +57,12 @@ header {
 .box-logo {
     vertical-align: middle;
     float: left;
-    line-height: 80px;
+    line-height: 60px;
 }
 
 .box-nav {
     float: left;
     margin-left: 15px;
-}
-
-header nav ul {
-    margin: 0 20px;
 }
 
 header nav ul li {
@@ -67,7 +73,7 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: black;
-    line-height: 80px;
+    line-height: 60px;
     padding: 0 10px;
 }
 
@@ -76,7 +82,44 @@ header nav ul li a {
     margin-right: 15px;
 }
 
-.box-nav{
+.box-nav {
     float: left;
 }
  
+/* sezione 1 */
+
+.sec-1 {
+    height: 550px;
+    background-color: rgb(166, 197, 225);
+    margin-top: 60px;
+}
+
+.title h1 {
+    font-size: 3.5rem;
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+}
+
+.left-text {
+    width: 30%;
+    float: left;
+}
+
+.left-text p {
+    margin: 20px 0 ;
+}
+
+.left-text i {
+    transform: scale(2);
+    padding-top: 20px;
+}
+
+.right-img {
+    width: 70%;
+    float: left;
+}
+
+.right-img img {
+    width: 100%;
+}
