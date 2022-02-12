@@ -4,3 +4,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* generali */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* bottoni */
+
+.button {
+    display: inline;
+    padding: 5px 15px;
+}
+
+.bg-blue {
+    background-color: rgb(5, 68, 255);
+    color: white;
+}
+
+
+/* navbar */
+
+header {
+    height: 80px;
+    line-height: 80px;
+    /* position: fixed; */
+}
+
+.navbar-left {
+    float: left;
+    margin-left: 15px;
+}
+
+.box-logo {
+    vertical-align: middle;
+    float: left;
+    line-height: 80px;
+}
+
+.box-nav {
+    float: left;
+    margin-left: 15px;
+}
+
+header nav ul {
+    margin: 0 20px;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    line-height: 80px;
+    padding: 0 10px;
+}
+
+.navbar-right {
+    float: right;
+    margin-right: 15px;
+}
+
+.box-nav{
+    float: left;
+}
+ 
