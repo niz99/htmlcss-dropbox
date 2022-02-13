@@ -16,6 +16,8 @@
     <!-- TODO 
         1- il logo non è centrato
         2- il bottone inizia nella navbar si rompe quando gli metto il float right 
+        3- mettere il cursore esattamente sull'input radio
+        4- nella seconda parte della colonna il testo mi va a capo sotto la matita
     -->
     
     <!-- navbar -->
@@ -24,7 +26,9 @@
         <div class="navbar-left clearfix">
 
             <div class="box-logo">
-                <img src="./asset/img/logo-small.png" alt="">
+                <a href="#">
+                    <img src="./asset/img/logo-small.png" alt="">
+                </a>
             </div>
 
             <nav class="box-nav">
@@ -59,7 +63,7 @@
                 </ul>
             </nav>
 
-            <div id="dx" class="button bg-blue">
+            <div class="button bg-blue">
                 <a href="#">Inizia</a>   
             </div>
         
@@ -78,7 +82,9 @@
 
             <div class="left-text">
                 <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                <div class="button bg-blue">Inizia la tua prova gratuita</div>
+                <a href="#">
+                    <div class="button bg-blue">Inizia la tua prova gratuita</div>
+                </a>
                 <p>Annulla in qualsiasi momento</p>
                 <i class="fa-solid fa-arrow-down"></i>
             </div>
@@ -89,6 +95,107 @@
 
         </div>
         
+    </section>
+
+    <!-- sezione 2 -->
+    <section class="sec-2">
+
+        <div class="container-2 clearfix">
+
+            <div class="title-2">
+                <h2>Trova il piano Dropbox Business che fa per te</h2>
+            </div>
+
+            <div class="bill clearfix">
+                <div class="monthly-billing">
+                    <input type="radio" name="billing-type" checked>
+                    <span>Fatturazione mensile</span>
+                </div>
+                
+                <div class="annual-billing" name="billing-type">
+                    <input type="radio">
+                    <span>Fatturazione annuale</span>
+                </div>
+            </div>
+
+            <!-- colonne -->
+            <div class="column">
+
+                <div class="single-team">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Singolo</span>
+                </div>
+
+                <div class="column-content">
+
+                    <div class="first-part">
+                        <h3 class="column-type">Professional</h3>
+                        <div class="column-price">19,99&#8364;</div>
+                        <div class="month">/mese</div>
+                    </div>
+
+                    <div class="second-part">
+                        <div class="user">
+                            <i class="fa-regular fa-user"></i>
+                            <span>1 utente</span>
+                        </div>
+                        <div class="tb">
+                            <i class="fa-solid fa-folder"></i>
+                            <span>3 TB di spazio di archiviazione sicuro</span> 
+                        </div>
+                        <div class="premium">
+                            <i class="fa-solid fa-pencil"></i>
+                            <span>Funzioni di produttività premium e condivisione file semplice e sicura</span> 
+                        </div>
+                    </div>
+
+                    <div class="third-part">
+                        <div class="button bg-blue">
+                            <a href="#">Prova gratis per 30 giorni</a>
+                        </div>
+                        <p class="buy">oppure 
+                            <a href="#">acquista ora</a>
+                        </p>
+                    </div>
+
+                    <hr>
+                    
+                    <div class="fourth-part">
+                        <h4>Punti salienti del piano</h4>
+                        <p>
+                            <i class="fa-solid fa-check"></i>
+                            Invia file fino a 100GB con Dropbox Transfert
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check"></i>
+                            Cartelle offline su dispositivi mobili
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check"></i>
+                            Pulizia remota dell'account
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check"></i>
+                            Filigrana documento
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check"></i>
+                            Assistenza prioritaria via email e chat
+                        </p>
+                    </div>
+
+                </div>
+
+                
+
+
+
+            </div>
+
+            
+
+        </div>
+
     </section>
     
 </body>

@@ -1,4 +1,5 @@
 /* reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +23,12 @@ a {
 .container {
     width: 80%;
     margin: auto;
+}
+
+.container-2 {
+    width: 60%;
+    margin: auto;
+    border: 2px solid green;
 }
 
 /* bottoni */
@@ -122,4 +129,102 @@ header nav ul li a {
 
 .right-img img {
     width: 100%;
+}
+
+/* sezione 2 */
+
+.sec-2 {
+    height: 800px;
+}
+
+.title-2 h2 {
+    font-size: 2rem;
+    padding-top: 150px;
+}
+
+.bill {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.monthly-billing {
+    float: left;
+    margin-right: 15px;
+}
+
+.annual-billing {
+    float: left;
+}
+
+/* colonne */
+
+.column {
+    border: 1px solid rgb(197, 197, 201);
+    width: calc(100%/3 - 30px);
+    height: 900px;
+}
+
+.single-team {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid rgb(197, 197, 201);
+}
+
+.column-content {
+    width: 80%;
+    margin: auto;
+}
+
+.first-part {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.first-part .column-type {
+    font-size: 1.5rem;
+}
+
+.first-part .column-price {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.first-part .month {
+    color: rgb(81, 95, 109);
+    font-size: smaller;
+}
+
+.second-part div {
+    font-size: smaller;
+    margin: 30px 0;
+}
+
+.third-part .button {
+    width: 100%;
+    font-size: smaller;
+}
+
+.buy {
+    margin: 30px 0;
+    font-size: smaller;
+}
+
+.third-part .buy a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.column-content hr {
+    width: 20%;
+    margin-bottom: 40px;
+}
+
+.fourth-part p {
+    margin-top: 20px;
+    font-size: 0.7rem;
+}
+
+.fourth-part p i{
+color: rgb(5, 68, 255);
 }
