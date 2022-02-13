@@ -28,7 +28,7 @@ a {
 .container-2 {
     width: 60%;
     margin: auto;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 /* bottoni */
@@ -161,8 +161,9 @@ header nav ul li a {
 
 .column {
     border: 1px solid rgb(197, 197, 201);
-    width: calc(100%/3 - 30px);
-    height: 900px;
+    width: calc(100%/3);
+    height: 850px;
+    float: left;
 }
 
 .single-team {
@@ -192,7 +193,7 @@ header nav ul li a {
 
 .first-part .month {
     color: rgb(81, 95, 109);
-    font-size: smaller;
+    font-size: 0.8rem;
 }
 
 .second-part div {
@@ -225,6 +226,43 @@ header nav ul li a {
     font-size: 0.7rem;
 }
 
-.fourth-part p i{
+.fourth-part p i {
 color: rgb(5, 68, 255);
 }
+
+/* .center-col {
+    margin: 0 30px;
+} */
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: 1px solid rgb(197, 197, 201);
+}
+
+.content-row .fl-sx {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: calc(70% - 15px);
+    float:left;
+}
+
+.fl-sx h3 {
+    margin-bottom: 10px;
+}
+
+.fl-sx .office {
+    margin-bottom: 10px;
+}
+
+.fl-sx .solution {
+    font-size: smaller;
+}
+
+.content-row .fl-dx {
+    margin-top: 20px;
+    margin-right: 15px;
+    width: calc(30% - 15px);
+    float:left;
+}
+
