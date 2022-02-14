@@ -344,3 +344,19 @@ color: rgb(5, 68, 255);
     font-size: 0.8rem;
 }
 
+/* sezione 5 */
+
+.sec-5 .title-2 h2 {
+    padding-top: 80px;
+}
+
+.sec-5 .a-sec-5 a {
+    color: rgb(0, 60, 255);
+    text-decoration: underline;
+}
+
+.sec-5 .a-sec-5 {
+    margin: 30px 0;
+}
+
+/* sezione 6 */
