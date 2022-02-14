@@ -360,3 +360,89 @@ color: rgb(5, 68, 255);
 }
 
 /* sezione 6 */
+
+.sec-6 {
+    height: 400px;
+}
+
+.sec-6-lateral {
+    width: 30%;
+    float: left;
+}
+
+.sec-6-central {
+    width: 40%;
+    height: 400px;
+    float: left;
+    background-color: rgb(242, 242, 242);
+    overflow-y: auto;
+}
+
+.row-6 .sec-6-img {
+    width: 50%;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+
+.row-6 .sec-6-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+.content-sec-6-central {
+    padding: 40px;
+} 
+
+#designit {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.sec-6-central hr {
+    width: 15%;
+    color: rgb(217, 216, 219);
+    margin-bottom: 60px;
+}
+
+.sec-6-central p {
+    margin-bottom: 60px;
+}
+
+/* background color */
+
+.row-6 .bg-1 {
+    background-color: rgb(146, 204, 137);
+    border: 5px inset rgb(199, 229, 192);
+}
+
+.row-6 .bg-2 {
+    background-color: rgb(77, 0, 32);
+}
+
+.row-6 .bg-3 {
+    background-color: rgb(16, 127, 195);
+}
+
+.row-6 .bg-4 {
+    background-color: rgb(249, 0, 23);
+}
+
+.row-6 .bg-5 {
+    background-color: rgb(201, 0, 24);
+}
+
+.row-6 .bg-6 {
+    background-color: rgb(166, 197, 225);
+}
+
+.row-6 .bg-7 {
+    background-color: rgb(12, 20, 107);
+}
+
+.row-6 .bg-8 {
+    background-color: rgb(219, 180, 33);
+}
