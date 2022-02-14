@@ -513,11 +513,9 @@ color: rgb(5, 68, 255);
 
 footer {
     background-color: black;
-    height: 300px;
 }
 
 .container-3 {
-    /* border: 1px solid yellow; */
     margin-left: 100px;
     margin-right: 120px;
     color: white;
@@ -547,4 +545,5 @@ footer {
 .language {
     color: grey;
     font-size: 0.8rem;
+    margin-bottom: 30px;
 }
