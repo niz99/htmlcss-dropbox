@@ -479,3 +479,32 @@ color: rgb(5, 68, 255);
 .sec-7-right .button a {
     color: black;
 }
+
+/* sezione 8 */
+
+.sec-8 h2 {
+    font-size: 2rem;
+    padding-bottom: 40px;
+}
+
+.faq {
+    border-top: 1px solid rgb(212, 212, 214);
+    padding: 20px 0;
+}
+
+.faq-left {
+    width: 95%;
+    float: left;
+}
+
+.faq-right {
+    width: 5%;
+    float: left;
+}
+
+.faq-bottom {
+    border-top: 1px solid rgb(212, 212, 214);
+    border-bottom: 1px solid rgb(212, 212, 214);
+    padding: 20px 0;
+    margin-bottom: 100px;
+}
