@@ -508,3 +508,43 @@ color: rgb(5, 68, 255);
     padding: 20px 0;
     margin-bottom: 100px;
 }
+
+/* footer */
+
+footer {
+    background-color: black;
+    height: 300px;
+}
+
+.container-3 {
+    /* border: 1px solid yellow; */
+    margin-left: 100px;
+    margin-right: 120px;
+    color: white;
+}
+
+.footer-sec {
+    width: calc(100% / 5);
+    float: left;
+    margin: 50px 0;
+}
+
+.footer-sec h4 {
+    margin-bottom: 15px;
+}
+
+.footer-sec h6 {
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.container-3 hr {
+    width: 10%;
+    color: rgb(94, 94, 94);
+    margin-bottom: 50px;
+}
+
+.language {
+    color: grey;
+    font-size: 0.8rem;
+}
