@@ -362,7 +362,7 @@ color: rgb(5, 68, 255);
 /* sezione 6 */
 
 .sec-6 {
-    height: 400px;
+    height: 384px;
 }
 
 .sec-6-lateral {
@@ -372,7 +372,7 @@ color: rgb(5, 68, 255);
 
 .sec-6-central {
     width: 40%;
-    height: 400px;
+    height: 384px;
     float: left;
     background-color: rgb(242, 242, 242);
     overflow-y: auto;
@@ -380,7 +380,7 @@ color: rgb(5, 68, 255);
 
 .row-6 .sec-6-img {
     width: 50%;
-    height: 200px;
+    height: calc(384px / 2);
     float: left;
     position: relative;
 }
@@ -391,6 +391,7 @@ color: rgb(5, 68, 255);
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60%;
+    filter: invert(1);
 }
 
 .content-sec-6-central {
@@ -514,6 +515,9 @@ color: rgb(5, 68, 255);
 footer {
     background-color: black;
 }
+
+
+/* ANCHOR problemi con il margine: il container-3 mi fa cambiare i margini laterali mentre i marini superiore e inferiori li devo cambiare nel footer-sec */
 
 .container-3 {
     margin-left: 100px;
